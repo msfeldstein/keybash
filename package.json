@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "budo --port=3000 wormies.js"
+  },
   "dependencies": {
-    "@tweenjs/tween.js": "^18.5.0"
+    "@tweenjs/tween.js": "^18.5.0",
+    "serve": "^11.3.0"
   }
 }
